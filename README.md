@@ -15,7 +15,7 @@ npm install
 // Build the /javascript/compiled/app.js file
 npm run build
 
-// Note "npm run build" is a package.json script, the calls jsx binary with the parameters below
+// Note "npm run build" is a package.json script, which call jsx binary like so:
 jsx --extension jsx javascript/src javascript/compiled"
 ```
 
